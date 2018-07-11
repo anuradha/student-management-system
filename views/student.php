@@ -25,7 +25,7 @@
             </div>
         </div>
     <?php } ?>
-    <div class="container-title text-center">Student Management System</div>
+    <div class="container-title text-center"><img src="assets/images/group_ico.png"> Student Management System</div>
     <div class="form-wrapper">
         <form action="<?php echo BASE_URL; ?>student/save" method="post">
             <div>
@@ -51,16 +51,16 @@
             </div>
         </form>
     </div>
-<div style="clear: both;"></div>
+    <div style="clear: both;"></div>
     <div class="data-wrapper">
         <h2>Students List</h2>
         <table id="students">
             <thead>
-                <tr>
-                    <th style="width: 30%;">First Name</th>
-                    <th style="width: 30%;">Last Name</th>
-                    <th style="width: 40%;">Subjects</th>
-                </tr>
+            <tr>
+                <th style="width: 30%;">First Name</th>
+                <th style="width: 30%;">Last Name</th>
+                <th style="width: 40%;">Subjects</th>
+            </tr>
             </thead>
             <tbody>
             <?php
