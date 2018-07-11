@@ -1,7 +1,8 @@
 <?php
 /**
  * Class Request
- *
+ * All requests will be handled by this
+ * 
  * @package     Student_Management_System
  * @author      Anuradha Fernando <aji81111@gmail.com>
  * @copyright   Copyright (c) 2018

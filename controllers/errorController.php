@@ -1,7 +1,7 @@
 <?php
 /**
  * Class errorController
- * all error requests will be hanled by this
+ * All error requests will be handled by this
  *
  * @package     Student_Management_System
  * @author      Anuradha Fernando <aji81111@gmail.com>

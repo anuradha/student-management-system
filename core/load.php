@@ -1,6 +1,7 @@
 <?php
 /**
  * Class Load
+ * All view and model requests will be handled by this
  *
  * @package     Student_Management_System
  * @author      Anuradha Fernando <aji81111@gmail.com>
@@ -9,7 +10,6 @@
 class Load {
 	/**
 	 * view action
-	 * all view request will be handled by this
 	 *
 	 * @param $name
 	 * @param array|null $vars

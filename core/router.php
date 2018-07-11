@@ -1,6 +1,7 @@
 <?php
 /**
  * Class Router
+ * This will route the request to relevant controller and action
  *
  * @package     Student_Management_System
  * @author      Anuradha Fernando <aji81111@gmail.com>
@@ -9,7 +10,6 @@
 class Router {
 	/**
 	 * router class
-	 * all routing requests will be handled by this
 	 *
 	 * @param Request $request
 	 * @throws Exception
