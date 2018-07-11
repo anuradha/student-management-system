@@ -1,6 +1,6 @@
 <?php
 /**
- * db Model
+ * Class dbModel
  *
  * @package     Student_Management_System
  * @author      Anuradha Fernando <aji81111@gmail.com>

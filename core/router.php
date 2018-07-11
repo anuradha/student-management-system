@@ -9,7 +9,7 @@
  */
 class Router {
 	/**
-	 * router class
+	 * handle the router request
 	 *
 	 * @param Request $request
 	 * @throws Exception
