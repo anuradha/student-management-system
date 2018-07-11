@@ -10,7 +10,7 @@
  -->
 <connection>
     <host><![CDATA[localhost]]></host>
-    <username><![CDATA[root]]></username>
-    <password><![CDATA[root]]></password>
+    <username><![CDATA[DB_USER]]></username>
+    <password><![CDATA[DB_PASS]]></password>
     <dbname><![CDATA[students]]></dbname>
 </connection>
