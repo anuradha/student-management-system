@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+/**
+ * Database Configurations
+ *
+ * @package     Student_Management_System
+ * @author      Anuradha Fernando <aji81111@gmail.com>
+ * @copyright   Copyright (c) 2018
+ */
+ -->
+<connection>
+    <host><![CDATA[localhost]]></host>
+    <username><![CDATA[root]]></username>
+    <password><![CDATA[root]]></password>
+    <dbname><![CDATA[students]]></dbname>
+</connection>

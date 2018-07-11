@@ -1,0 +1,40 @@
+body {background: #fff; }
+
+.txt-404 {
+    font-size: 70px;
+}
+
+.error-message-container {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-message {
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 100px 20px 30px;
+}
+
+.title {
+    font: 600 45px/1.5em 'Open+Sans',sans-serif;
+    color: #3b4450;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.small {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.message {
+    font: 300 30px/1.5em "Open Sans", open-sans, sans-serif;
+    color: #000;
+}
