@@ -85,14 +85,13 @@ class studentModel {
                 foreach ($postArr['subjects'] as $subject) {
                     $stSubSql = "INSERT INTO student_subject(subject_id, student_id) VALUES ('" . $subject . "', '" . $maxStudentId . "')";
                     $result = $this->dbModel->execQuery($stSubSql);
-                    return $result ? true : false;
                 }
-            } else {
-                return false;
             }
         } catch (Exception $e){
             exit("Could not save student data. Please check and try again");
         }
+
+        return $result;
     }
 }
 ?>
